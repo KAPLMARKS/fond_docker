@@ -1,0 +1,52 @@
+/* общие стили */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body{
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #00000085;
+    /* background-image: url('background.jpg'); */
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    /* background: #6a11cb; */
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)); */
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)) */
+}
+.bg-dark {
+    background-color: #0b0c109c !important;
+    /* border: 1px solid #0B0C10; */
+    border: 1px solid #66FCF1;
+}
+.card h2{
+    color: #66FCF1;
+}
+.btn-outline-light {
+    color: #66FCF1;
+    border-color: #66FCF1;
+}
+input{
+    background-color: #00000085 !important;
+    border: 1px solid #00000085 !important;
+    color: white !important;
+}
+input:active{
+    background-color: #00000085 !important;
+    border: 1px solid #00000085 !important;
+    box-shadow: none;
+    color: white !important;
+}
+input:focus{
+    box-shadow: none!important;
+}
