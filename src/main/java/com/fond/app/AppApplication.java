@@ -18,5 +18,5 @@ public class AppApplication {
         return new BCryptPasswordEncoder();
     }
 
-
+  //пук
 }
