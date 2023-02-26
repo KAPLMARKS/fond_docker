@@ -50,7 +50,7 @@
                         </td>
                         <td>
                             <div class="tdContainer">
-                                <input name="nameProject" type="text" required>
+                                <input name="nameProject" minlength="10" maxlength="100" type="text" required>
                             </div>
                         </td>
                     </tr>
@@ -74,7 +74,7 @@
                         </td>
                         <td>
                             <div class="tdContainer">
-                                <textarea style="height: 500px" name="description" required></textarea>
+                                <textarea style="height: 500px" name="description" required minlength="10" maxlength="250"></textarea>
                             </div>
                         </td>
                     </tr>
@@ -119,7 +119,7 @@
                         </td>
                         <td>
                             <div class="tdContainer">
-                                <input name="keywords" type="text">
+                                <input name="keywords" maxlength="250" type="text">
                             </div>
                         </td>
                     </tr>

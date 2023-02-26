@@ -1,0 +1,34 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+}
+.background-image{
+    background-image: url("banner.jpg");
+    background-size: 100% 100%;
+    width: 300px;
+    height: 100%;
+    min-height: 100vh;
+    filter: blur(5px);
+}
+.info-text{
+    text-indent: 4ch;
+    margin-bottom: 10px;
+}
+.main-info-banner{
+    margin: 0px 60px;
+}
+.general-block{
+    display: flex;
+}
+.icon-fond{
+    text-align: end;
+}
+.icon-fond img{
+    padding: 20px 0px 20px 0px;
+    width: 150px;
+}
+.contact{
+    font-size: 18px;
+    margin-top: 50px;
+}

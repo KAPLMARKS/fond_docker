@@ -84,7 +84,7 @@
                         </td>
                         <td>
                             <div class="tdContainer">
-                                <textarea style="height: 500px" name="aboutMe" minlength="50" maxlength="500"></textarea>
+                                <textarea style="height: 500px" name="aboutMe" minlength="50" maxlength="250"></textarea>
                             </div>
                         </td>
                     </tr>
