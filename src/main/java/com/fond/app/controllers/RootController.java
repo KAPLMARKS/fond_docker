@@ -33,7 +33,7 @@ public class RootController {
     @Autowired
     private DeclarationsService declarationsService;
 
-    @PermitAll
+    /*@PermitAll
     @GetMapping
     public String getRoot(Authentication authentication, Model model, @RequestParam(defaultValue = "0",required = false,name = "page") int page, @RequestParam(value="mainDeclaration" ,defaultValue = "0") Long mainDeclaration, @RequestParam(value = "dopDeclaration",defaultValue = "0") Long dopDeclaration) {
         UserDto user=null;
@@ -65,5 +65,11 @@ public class RootController {
         model.addAttribute("mainDeclarationSel",mainDeclaration!=0 ? declarationsService.getMainDeclaration(mainDeclaration):null);
         model.addAttribute("dopDeclarationSel",dopDeclaration!=0 ? declarationsService.getDopDeclaration(dopDeclaration):null);
         return "home";
+    }*/
+
+    @PermitAll
+    @GetMapping
+    public String getPresentation(){
+        return "presentation";
     }
 }

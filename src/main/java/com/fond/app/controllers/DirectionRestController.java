@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-public class RestUploadController {
+public class DirectionRestController {
     @Autowired
     DeclarationsService declarationsService;
     @PostMapping("/api/getDirection")

@@ -24,6 +24,6 @@ public class CVForm {
     @Size(min = 10,max = 12)
     private String inn;
     @NotNull
-    @Size(min = 50,max = 500)
+    @Size(min = 50,max = 250)
     private String aboutMe;
 }
